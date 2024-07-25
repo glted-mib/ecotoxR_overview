@@ -8,4 +8,6 @@ To use the more maintained SQL-based search function, you’ll first need to dow
 
 More detailed information can be found here, but the examples are not perfect for large groups of chemicals, and some of the functions are somewhat outdated: https://cran.r-project.org/web/packages/ECOTOXr/readme/README.html
 
+The script 'ecotoxR.r' contains examples for all basic search functions, both the SQL-based and web-based search function for ecotox, and the web-based search function for comptox. 
+
 
