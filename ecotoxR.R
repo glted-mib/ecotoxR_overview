@@ -81,6 +81,9 @@ search_results <- websearch_ecotox(search_fields, habitat='aquire') #this specif
 # casrn<-read.csv(paste0(root_dir,"/data_in/cas.csv")) #endpoint data
 # list<-as.character(unique(casrn$x))
 
+#here's an example with the subset above:
+list<-c(75898,  76051,  76131,  76142,  98088, 151677)
+list<-as.character(list)
 
 test<-websearch_comptox(list, inputType = "IDENTIFIER", downloadItems = c("DTXCID", "CASRN", "INCHIKEY", "IUPAC_NAME", "SMILES",
                                                                           "INCHI_STRING", "MS_READY_SMILES", "QSAR_READY_SMILES", "MOLECULAR_FORMULA",
