@@ -1,6 +1,4 @@
 
-library(tidyverse)
-library(ggplot2)
 library(ECOTOXr)
 
 who_is_running<-'eap'
